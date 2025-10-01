@@ -36,12 +36,12 @@ All colors MUST be HSL.
     --input: 210 25% 90%;
     --ring: 210 95% 25%;
 
-    /* Custom energy design tokens */
-    --energy-blue: 210 95% 25%;
-    --energy-green: 155 85% 35%;
+    /* Crestpoint brand colors from logo */
+    --energy-blue: 210 60% 25%;
+    --energy-green: 210 25% 55%;
     --energy-light: 210 30% 96%;
-    --professional-dark: 210 20% 15%;
-    --professional-medium: 210 15% 55%;
+    --professional-dark: 210 55% 20%;
+    --professional-medium: 210 30% 50%;
     
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--energy-blue)), hsl(var(--accent)));
