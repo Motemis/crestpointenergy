@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Menu } from "lucide-react";
-import crestpointLogo from "@/assets/crestpoint-logo.jpg";
+import crestpointLogo from "@/assets/crestpoint-logo.png";
 
 const Header = () => {
   return (
