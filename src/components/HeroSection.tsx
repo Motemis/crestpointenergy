@@ -37,31 +37,7 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 bg-accent/20 rounded-full mb-3">
-                <TrendingUp className="h-6 w-6 text-accent" />
-              </div>
-              <h3 className="font-semibold mb-1">$50M+ Saved</h3>
-              <p className="text-primary-foreground/80 text-sm">In client energy costs</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 bg-accent/20 rounded-full mb-3">
-                <Shield className="h-6 w-6 text-accent" />
-              </div>
-              <h3 className="font-semibold mb-1">15+ Years</h3>
-              <p className="text-primary-foreground/80 text-sm">Industry experience</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-12 h-12 bg-accent/20 rounded-full mb-3">
-                <Zap className="h-6 w-6 text-accent" />
-              </div>
-              <h3 className="font-semibold mb-1">500+</h3>
-              <p className="text-primary-foreground/80 text-sm">Successful projects</p>
-            </div>
-          </div>
+          {/* Stats hidden - will sync with real data later */}
         </div>
       </div>
     </section>

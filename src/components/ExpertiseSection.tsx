@@ -13,17 +13,18 @@ const ExpertiseSection = () => {
     "Load Forecasting & Analysis"
   ];
 
-  const achievements = [
-    { metric: "$50M+", label: "Client Savings Generated" },
-    { metric: "15+", label: "Years Experience" },
-    { metric: "500+", label: "Projects Completed" },
-    { metric: "98%", label: "Client Retention Rate" }
-  ];
+  // Stats hidden - will sync with real data later
+  // const achievements = [
+  //   { metric: "$50M+", label: "Client Savings Generated" },
+  //   { metric: "15+", label: "Years Experience" },
+  //   { metric: "500+", label: "Projects Completed" },
+  //   { metric: "98%", label: "Client Retention Rate" }
+  // ];
 
   return (
     <section id="expertise" className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="max-w-4xl mx-auto">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-professional-dark mb-6">
               Industry-Leading
@@ -54,18 +55,7 @@ const ExpertiseSection = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-6">
-            {achievements.map((achievement, index) => (
-              <div key={index} className="text-center p-6 bg-gradient-subtle rounded-lg shadow-card">
-                <div className="text-4xl md:text-5xl font-bold text-energy-blue mb-2">
-                  {achievement.metric}
-                </div>
-                <div className="text-professional-medium font-medium">
-                  {achievement.label}
-                </div>
-              </div>
-            ))}
-          </div>
+          {/* Stats grid hidden - will sync with real data later */}
         </div>
       </div>
     </section>
